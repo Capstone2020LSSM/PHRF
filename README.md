@@ -6,5 +6,7 @@
 (예상 스크린 샷)
 
 사용할 언어
+
 앱 -> React Native
+
 DB -> PostgreSQL

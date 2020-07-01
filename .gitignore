@@ -1,0 +1,22 @@
+# : 주석
+
+# 모든 .a files
+# *.a
+
+# lib.a는 git push 가능, 모든 .a files 을 ignore 처리했어도
+# !lib.a
+
+# 현재 폴더안의 TODO file 만 무시, 다른 폴더(디렉토리)의 /TODO 는 push
+# /TODO
+
+# build/ directory 의 모든 파일 무시
+# build/
+
+# doc/notes.txt는 무시하지만,doc/server/arch.txt 은 무시하지않음
+# doc/*.txt
+
+# ignore all .pdf files in the doc/ directory
+# doc/**/*.pdf
+
+# 위치상관없이 모든 node_modules
+**/node_modules

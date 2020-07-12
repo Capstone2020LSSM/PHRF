@@ -9,4 +9,11 @@
 
 앱 -> React Native
 
+Express (Web Frame work)
+
+서버 -> Node.js
+
+Sequlize (ORM)
+
 DB -> PostgreSQL
+

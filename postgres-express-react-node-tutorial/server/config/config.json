@@ -1,0 +1,19 @@
+{
+  "development": {
+    "use_env_variable": "DATABASE_URL"
+  },
+  "test": {
+    "username": "ssuw2",
+    "password": "1234",
+    "database": "todos-test",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "ssuw2",
+    "password": "1234",
+    "database": "todos-pro",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}

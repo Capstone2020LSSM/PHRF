@@ -1,9 +1,9 @@
 {
   "development": {
-    "username": "mediMaster",
-    "password": "master1234",
-    "database": "pre_medi",
-    "host": "my-medi.cx57lqfchybq.ap-northeast-2.rds.amazonaws.com",
+    "username": "test_man",
+    "password": "1234",
+    "database": "test",
+    "host": "127.0.0.1",
     "port": 5432,
     "dialect": "postgres"
   },

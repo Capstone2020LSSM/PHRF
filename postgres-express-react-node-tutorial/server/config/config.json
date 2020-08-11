@@ -1,0 +1,24 @@
+{
+  "development": {
+    "username": "mediMaster",
+    "password": "master1234",
+    "database": "pre_medi",
+    "host": "my-medi.cx57lqfchybq.ap-northeast-2.rds.amazonaws.com",
+    "port": 5432,
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}

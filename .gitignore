@@ -19,4 +19,9 @@
 # doc/**/*.pdf
 
 # 위치상관없이 모든 node_modules
-**/node_modules
+node_modules
+
+.env
+
+.npm
+

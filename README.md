@@ -8,8 +8,9 @@
 
 
 ER다이어그램이라기엔 많이 이상하지만 대략 다이어그램
+(20200821 수정)
 
-![medi_beta](https://user-images.githubusercontent.com/40845064/90759106-f195c280-e31a-11ea-9872-33fe6828cf4b.jpg)
+![medi_beta2](https://user-images.githubusercontent.com/40845064/90852814-8b10b300-e3b3-11ea-99f5-6cee1e12244a.png)
 
 
 
@@ -30,6 +31,9 @@ DB -> PostgreSQL
 
 
 ## git 사용법(나의)
+
+<details>
+    <summary>자세히</summary>
 
 1. 깃허브로부터 가져와서 동기화
 
@@ -83,3 +87,4 @@ git branch -d new_branch
 ```
 
 11. 이제 2번으로 돌아가 반복
+</details>

@@ -1,4 +1,4 @@
-const sexpress = require('express');
+const express = require('express');
 
 const router = express.Router();
 
@@ -11,7 +11,7 @@ router.get('/join', (req, res) => {
     title: '회원가입 - NodeBird',
     user: null,
     joinError: req.flash('joinError'),
-  }),
+  });
 });
 
 router.get('/', (req, res, next) => {

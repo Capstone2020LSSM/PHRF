@@ -61,3 +61,27 @@
    views/profile.pug
 
    ~~아무튼 생성됨~~
+
+7. dotenv를 사용해서 중요한 내용을 숨기자
+
+config.json은 정적파일이라 dotenv를 못써먹으니
+
+config.js파일을 만들어서 저장하자
+
+참고로 postgreql url을 쓸라면
+
+DATABASE_URL=postgres://아이디:비밀번호@링크URL:포트번호/디비명
+
+이 형식을 지켜줘야한다
+
+진짜
+
+8. sequelize짱짱
+
+DB연결 잘하고
+
+sequelize형식대로 관계 형성하고 각각 테이블마다 js파일만들면
+
+sequelize가 데이터베이스 상관없이 알아서 다 만들어준다
+
+물론 오타 없이 잘 적어야겠지만

@@ -13,6 +13,6 @@ module.exports = (passport) => {
       .catch(err => done(err));
   });
 
-  loca(passport);
+  local(passport);
   kakao(passport);
 };
